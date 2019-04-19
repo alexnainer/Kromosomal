@@ -1,15 +1,3 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 
-
-class Person extends React.Component {
-
-
-
-
-
-
-
-
-
-  
-}
+class Person extends React.Component {}
