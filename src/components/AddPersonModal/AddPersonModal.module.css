@@ -1,0 +1,83 @@
+.paperContainer {
+  @media (max-width: 768px) {
+    height: 100%;
+    outline: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px 12px 0;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  /* '@media (max-width: 768px)': {
+    padding: '26px 20px 37px',
+    justifyContent: 'flex-start',
+  }, */
+}
+
+.paper {
+  transition: all 0.2s ease;
+  z-index: 100000;
+  margin: auto;
+  outline: 0;
+  border-radius: 7px;
+  background-color: #ffffff;
+  box-shadow: 0 0 6px 0 rgba(38, 37, 34, 0.25);
+  /* '@media (max-width: 768px)': {
+    width: 'auto',
+    position: 'relative',
+  }, */
+  /* @media (min-width: 768px) { */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* width: 414px; */
+  position: fixed;
+  /* } */
+}
+
+.subtitle {
+  color: #262522;
+  font-family: Roboto;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  padding: 12px 0 6px;
+  white-space: nowrap;
+  @media (max-width: 768px) {
+    white-space: normal;
+    font-size: 16px;
+  }
+}
+
+.textFieldContainer {
+  margin: 7px 0;
+}
+
+@media (max-width: 768px) {
+  .textField{
+    height: 49px;
+    width: 100%;
+    border-radius: 3px;
+  }
+}
+
+ .textField {
+  height: 44px;
+  width: 302px;
+  border-radius: 6px;
+  background-color: #F1F1F1;
+  box-shadow: 0 0 4px 0 rgba(38,37,34,0.25);
+  padding: 10px 13px;
+  border: 1px solid rgba(0,0,0,0);
+  transition: all 0.2s ease;
+  /* '&.Mui-focused': {
+    border: '1px solid #AC9456',
+  }, */
+ 
+}
